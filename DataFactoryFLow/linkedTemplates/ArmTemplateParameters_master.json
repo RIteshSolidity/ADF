@@ -8,17 +8,29 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"AzureBlob1_properties_typeProperties_fileName": {
 			"value": "processedproducts.csv"
 		},
 		"AzureBlob1_properties_typeProperties_folderPath": {
 			"value": "finaldata"
 		},
+		"AzureDataLakeStorageFile1_properties_typeProperties_fileName": {
+			"value": "information.csv"
+		},
+		"AzureDataLakeStorageFile1_properties_typeProperties_folderPath": {
+			"value": "products"
+		},
 		"InputBlobStorageData_properties_typeProperties_fileName": {
 			"value": "products.csv"
 		},
 		"InputBlobStorageData_properties_typeProperties_folderPath": {
 			"value": "rawdata"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakegen2productstore.dfs.core.windows.net"
 		}
 	}
 }
